@@ -23,7 +23,7 @@ The idea is to deploy code across different branches and get used to git command
 
 3. Got to [Educative.io](#https://www.educative.io/courses/getting-started-with-git-version-control) and learn the basics of using git.
 
-4. You also need need to learn a bit about github repositories
+4. You also need to learn a bit about github repositories
 
 ### Usage
 ---
