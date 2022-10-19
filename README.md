@@ -38,3 +38,6 @@ The idea is to deploy code across different branches and get used to git command
 5. Find the branch for your team (This is where your PR's will be merged to)
 
 6. Ensure you push all your local changes to your branch and then create a PR to your team's branch
+
+
+Done with this? ...[Move to task 2](/docs/task_2.html)
