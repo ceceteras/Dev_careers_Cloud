@@ -19,7 +19,11 @@ The first step to take is to sign up on AWS. Once you have an account, you can l
 The above is a screenshot of my Amazon EC2 Dashboard with two running instances. Here you can click on **Launch instances** to provision a new virtual machine. You get to name your VM, choose what Application and OS Images (Amazon Machine Image) you get to run, choose or create a new key pair which would be used to access the server later on, and choose or create a new security group to restrict inbound traffic to your server. Once created, you can view all instances in your EC2 dashboad.
 
 ### Connecting to your Windows VM
-To connect to your Windows VM, ensure your **Security group** has a rule that allows RDP connection. This allows you to connect to your instance using a **Remote Desktop Connection** which can be downloaded as a desktop application if you haven't done so previously. Connect using the provided Username and Password (created from decrypting your private key you had added or created in previous steps). Give your server some time to start up and you should be seeing a Windows machine at this point just like the image below:
+To connect to your Windows VM, ensure your **Security group** has a rule that allows RDP connection. This allows you to connect to your instance using a **Remote Desktop Connection** which can be downloaded as a desktop application if you haven't done so previously. Connect using the provided Username and Password (created from decrypting your private key you had added or created in previous steps).
+
+![Connect using RDP](img/Screenshot%20(10).png)
+
+Give your server some time to start up and you should be seeing a Windows machine at this point just like the image below:
 
 ![AWS Microsoft Windows VM](img/Screenshot%20(7).png)
 
