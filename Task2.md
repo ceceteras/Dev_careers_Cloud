@@ -56,11 +56,11 @@ sudo systemctl restart nginx
 - Input your IP address(or DNS name), username (which is Administrator) and password (the one you copied) and click on quick connect.
 
 - You should get a page like below asking you to Accept the certificate
-[The Accept Certificate Prompt](/cert.png)
+![The Accept Certificate Prompt](/cert.png)
 <b>click on Yes</b>
 
 - After Accepting you will get the default windows homepage, like the one below
-[Default Windows Homepage](/windows.png)
+![Default Windows Homepage](/windows.png)
 
 - Inside your Virtual Machine, Open Microsoft edge and head to https://nginx.org/en/download to download Nginx for windows.
 
