@@ -107,7 +107,6 @@ To connect to the Windows VM using RDP Client, follow the below steps
 - Get the password by uploading the key pair you created which would be decrypted
 - Open the remote desktop file you downloaded and paste the password
 
-
 Once you are connected to the VM, navigate to the web browser and download Nginx 
 
 Extract the downloaded file, move the extracted file to your programs folder in C:/ drive, open the folder and double tap the nginx.exe file to run nginx.
