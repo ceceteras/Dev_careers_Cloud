@@ -1,8 +1,3 @@
----
-permalink: /task_2.html
----
-
-
 # TASK 2.
 
 We believe you already know the basics of git and how to collaborate with your colleagues before you get to this point. 
