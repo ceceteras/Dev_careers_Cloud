@@ -2,6 +2,9 @@
 Create 2 Virtual Machines, Linux and Windows respectively with SSH and RDP priviledges utilizing any Cloud provider of choice. Using nginx on both servers, deploy a simple web app.
 
 ## Steps taken for the Linux VM
+
+My Linux VM IP address: http://54.242.140.43/
+
 ### Creating Linux VM
 Using AWS Cloud Provider, navigate to the management console and create an Ubuntu VM having the following configurations
 - t2 micro (free tier)
@@ -88,6 +91,9 @@ In your web browser, open your website ip address on port 80 and your changes sh
 
 
 ## Steps taken for the Windows VM
+
+My Linux VM IP address: http://54.234.24.23/
+
 ### Creating Windows VM
 
 Using AWS Cloud Provider, navigate to the management console and create a windows vm having the following configurations
