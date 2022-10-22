@@ -21,11 +21,13 @@ c. GCP account
 
 5. Configure the network settings
   You use this pane to configure networking settings.
-  The virtual private cloud (VPC) indicates which VPC you want to launch the instance into. You can have multiple VPCs, including different ones for development, testing, and production.
+  The virtual private cloud (VPC) indicates which VPC you want to launch the instance into.
  
-  In the Network settings section, choose Edit.
-  From the VPC - required dropdown list, choose Lab VPC.
-  The Lab VPC was created using an AWS CloudFormation template during the setup process of your lab. This VPC includes two public subnets in two different Availability Zones.
+
+6. Ensure the instance is running.
+7. Note: Refresh if needed.
+        ◦ Instance State: Running
+        ◦ Status Checks: 2/2 checks passed
 
 Using the Public ip address  you should be able to access the Web page from any browser of your choice
 
