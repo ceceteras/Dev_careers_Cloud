@@ -1,4 +1,4 @@
-## How to provision Virtual Machines, Install and Run Nginx
+## How to Provision Virtual Machines, Install and Run Nginx on AWS
 
 #### Public Ip Address:
 Linux: *[18.191.214.95](http://18.191.214.95)*
