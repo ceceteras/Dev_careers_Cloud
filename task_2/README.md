@@ -29,5 +29,16 @@ Give your server some time to start up and you should be seeing a Windows machin
 
 ### Download Nginx
 At this point, you will be able to use the internet explorer and open the Nginx [Download](http://nginx.org/en/download.html) link for Windows.
+Download any of the **mainline version** as recommended by Nginx, or the latest stable version. Extract the downloaded folder then move the entire folder that came with the built-in download copy into the **Program Files**.  Select and double-click the Nginx.exe file to install and run Nginx locally. Type localhost or `http://localhost` on  Microsoft Edge, the browser as used in the below image. If you see a screen saying the Nginx web server is successfully installed and working, it means there were no problems with your Nginx installation in Windows.
+![Welcome to Nginx](img/Screenshot%20(3).png)
 
-*To be continued later*
+To run Nginx, you have to use Internet Information Services (IIS), which is a Microsoft web server that serves requested HTML pages or files. You can enable it in “Turn Windows Features On or Off” in the Control Panel. Check the required fields for **Web Management Tools** and **IIS Management Console**.
+
+
+### Connecting to your Linux VM
+First select your Linux EC2 instance and click on connect. You can SSH to connect locally using the terminal or the browser based SSH connection.
+I created an Amazon Linux instance which runs an Amazon Linuz 2 OS with an ID like **centos rhel fedora** OS. It is important to note what Linux version your instance is running on in order to use the right commands. You can get the version by typing `cat /etc/os-release`. Upon a successful connection to this new instance, the first thing to do is an update. Run this using `sudo yum upate` command.
+
+Follow the instructions to install Nginx based on your OS release, then start Nginx using `sudo service nginx start`. You can test to ensure that Nginx has been installed successfully by running `curl localhost:80`. This should show the default HTML page for Nginx confirming successful installation.
+
+You can edit the default Nginx HTML page found in `/usr/share/nginx/html/index.html. Or start building an application and configure Nginx to serve your application.
