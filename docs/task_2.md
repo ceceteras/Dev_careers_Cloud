@@ -27,4 +27,4 @@ You can create an [Aws account(free tier 1 year)](#https://aws.amazon.com/free/?
  - [Getting started with servers](https://serversforhackers.com/s/start-here)
 
 
-Done with this? ...[Move to task 3](task_3.md)
+Done with this? ...[Move to task 3](../docs/task_3.md)
