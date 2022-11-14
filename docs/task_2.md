@@ -25,3 +25,6 @@ You can create an [Aws account(free tier 1 year)](#https://aws.amazon.com/free/?
  - [Guide to Linux](https://ryanstutorials.net/linuxtutorial/)
  - [Basic Linux commands](https://dev.to/javinpaul/10-simple-linux-tips-which-save-50-of-my-time-in-the-command-line-4moo)
  - [Getting started with servers](https://serversforhackers.com/s/start-here)
+
+
+Done with this? ...[Move to task 3](/docs/task_3.md)
